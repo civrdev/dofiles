@@ -1,0 +1,53 @@
+
+super + shift + s
+    flameshot gui -p ~/pctrs/screens/ -c
+
+super + p
+    sh $HOME/.config/polybar/toggle-polybar.sh
+
+super + w
+    feh --randomize --no-fehbg --bg-fill ~/pctrs/wallp/default/
+
+super + d
+    rofi -show drun
+
+super + Return
+    alacritty
+
+super + b
+    firefox &
+
+super + q
+    bspc node -c
+
+super + shift + {h, j, k, l}
+    bspc node -s {west, south, north, east}
+
+super + {1-4}
+    bspc desktop -f  ^{1-4}
+
+super + space
+    setxkbmap -layout us,ru -option grp:win_space_toggle
+
+Shift_L + alt
+    bspc node -t "~"{floating,tiled}
+
+super + control {h, j, k, l}
+    bspc node -z {left -20 0, right 20 0, top 0 -20, bottom 0 20}
+
+super + {h, j, k, l}
+    bspc node -z {left 20 0, right -20 0, top 0 20, bottom 0 -20}
+
+super + x + {h, j, k, l}
+    bspc node -v {-20 0, 0 20, 0 -20, 20 0}
+
+super + {_,shift + }{1-9,0}
+    bspc {desktop -f, node -d} '^{1-9,10}'
+
+alt + Tab
+    bspc node -f $(bspc query -N -d focused -n .window.local | grep -v $(bspc query -N -n focused) | head -n1)
+
+alt + shift + Tab
+    bspc node -f $(bspc query -N -d focused -n .window.local | grep -v $(bspc query -N -n focused) | tail -n1)
+
+

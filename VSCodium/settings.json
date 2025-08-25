@@ -1,0 +1,127 @@
+{
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "editor.fontFamily": "CaskaydiaMono Nerd Font",
+  "workbench.fontFamily": "SF Pro Text",
+  "workbench.sideBar.location": "right",
+  "workbench.fontAliasing": "antialiased",
+  "update.mode": "none",
+  "editor.fontSize": 16,
+  "workbench.tree.indent": 14,
+  "editor.tabSize": 2,
+  "workbench.navigationControl.enabled": false,
+  "workbench.list.smoothScrolling": true,
+  "editor.minimap.renderCharacters": false,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "editor.lineNumbers": "relative",
+  
+  // Настройка excalidraw по дефолту
+  "excalidraw.workspaceLibraryPath": ".",
+  "excalidraw.theme": "dark",
+
+  // Убираем виджет справа для скролла
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.matchBrackets": "near",
+  "editor.occurrencesHighlight": "off",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.stickyScroll.enabled": false,
+  
+  "workbench.colorCustomizations": {
+    "editorCursor.background": "#000000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.border": "#0000",
+},
+    "yaml.schemas": {
+  "https://raw.githubusercontent.com/alacritty/alacritty/master/extra/alacritty.schema.yaml": "alacritty.yml"
+},
+
+    // Настройка drawio
+    "hediet.vscode-drawio.resizeImages": null,
+
+    // Убрать панель слева с git, run, debug, plugins
+    "workbench.activityBar.location": "hidden",
+
+    // Настройка курсора
+    "editor.cursorBlinking": "solid",
+    // "editor.multiCursorModifier": "ctrlCmd",
+
+    // Отключаем панель управления окном
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+
+    // Отключаем лишние декорации и метки
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+
+    // По дефолту открывать пустую страницу
+    "workbench.startupEditor": "none",
+
+    // Отключить вывод сигнатуры функции
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": false,
+    "files.trimTrailingWhitespace": false,
+    "editor.links": false,
+
+    // Добавлять одну пустую строку в конец файла чтобы избежать ошибки
+    "files.insertFinalNewline": true,
+
+    // Отключаем окно с помощью для новичков
+    "workbench.tips.enabled": false,
+
+    // Отключаем прилипание заголовка в деревьях
+    "workbench.tree.enableStickyScroll": false,
+
+    // Убирает вертикальные линии отступов в дереве файлов
+    "workbench.tree.renderIndentGuides": "none",
+
+    // Всегда использовать те отступы, которые заданы вручную (tabSize, insertSpaces и т.п.), а не угадывать
+    "editor.detectIndentation": false,
+    
+    // Убрать значок для сворачивания кода
+    "editor.showFoldingControls": "never",
+
+    // Отключает вертикальные линии отступов в редакторе
+    "editor.guides.indentation": false,
+    
+    // Не показывает пробелы, табы, перевод строки и т.п. символы в редакторе
+    "editor.renderWhitespace": "none",
+
+    // Отключает подсветку активной строки
+    // "editor.renderLineHighlight": "none",
+
+    // Автосохранение файлов через короткую паузу после редактирования
+    "files.autoSave": "afterDelay",
+
+    // Отключает всплывающие предложения установить расширения
+    "extensions.ignoreRecommendations": true,
+
+    "window.titleBarStyle": "custom",
+    "window.titleBar": "native", // Для Linux (опционально)
+    "window.dialogStyle": "custom",
+    "window.enableMenuBarMnemonics": true,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "explorer.confirmDragAndDrop": false,
+    "window.menuBarVisibility": "compact",
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.statusBar.visible": false,
+    "redhat.telemetry.enabled": false
+}

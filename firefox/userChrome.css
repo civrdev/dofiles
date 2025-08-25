@@ -1,0 +1,82 @@
+/* Font for UI */
+* {
+  font-family: "SF Pro Text" !important;
+}
+
+/* X on tabs, button -> and <-, bookmark button, reader mode button, zoom button,
+identity ico, menu button, extensions button, search mode switcher button, security ico */
+
+.tabbrowser-tab .tab-close-button,
+#back-button,
+#forward-button,
+#star-button-box,
+#reader-mode-button-icon,
+#urlbar-zoom-button,
+#identity-permission-box,
+#PanelUI-menu-button,
+#urlbar-searchmode-switcher,
+#tracking-protection-icon-container,
+#urlbar .urlbar-icon[aria-label="Protection Status"] {
+  display: none !important;
+}
+
+/* Centering text in the address bar */
+#urlbar-input {
+  text-align: center !important;
+}
+#urlbar-input::placeholder {
+  text-align: center !important;
+}
+
+
+#PlacesToolbarItems {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+
+/* Скрыть плейсхолдер в адресной строке Firefox */
+#urlbar-input::placeholder {
+  opacity: 0 !important;
+}
+
+/* Убираем синюю рамку вокруг адресной строки при фокусе */
+#urlbar[focused="true"],
+#urlbar[open],
+#urlbar[breakout],
+#urlbar[breakout-extend],
+#urlbar[breakout][breakout-extend][open],
+#urlbar-background,
+#urlbar-container {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+  background: inherit !important;
+}
+
+#urlbar-results, #PopupAutoCompleteRichResult {
+  background: var(--arrowpanel-background) !important;
+}
+
+
+/* Увеличение размера текста и иконок в панели закладок */
+#personal-bookmarks .bookmark-item {
+  font-size: 15px !important;
+  padding: 4px 3px !important;
+}
+
+#personal-bookmarks .toolbarbutton-icon {
+  width: 21px !important;
+  height: 21px !important;
+}
+
+/* Увеличение размера иконок расширений */
+#nav-bar toolbarbutton .toolbarbutton-icon {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+#unified-extensions-button,
+toolbarbutton.unified-extensions-item {
+  --toolbarbutton-icon-size: 20px !important;
+
